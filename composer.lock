@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6c3f4a84da7688edbe3ec85fdeda4f4",
+    "content-hash": "73f8ec398c6c55210f9e50a773e9b93b",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -2242,16 +2242,16 @@
         },
         {
             "name": "ob-ivan/diversitest",
-            "version": "v0.1",
+            "version": "v0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ob-ivan/diversitest.git",
-                "reference": "21c0649d013ca7b9fc2ec0f7ca69de1bad49570d"
+                "reference": "ce7ae585714c9cd0c349d93d90f3ae68cfa3157f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ob-ivan/diversitest/zipball/21c0649d013ca7b9fc2ec0f7ca69de1bad49570d",
-                "reference": "21c0649d013ca7b9fc2ec0f7ca69de1bad49570d",
+                "url": "https://api.github.com/repos/ob-ivan/diversitest/zipball/ce7ae585714c9cd0c349d93d90f3ae68cfa3157f",
+                "reference": "ce7ae585714c9cd0c349d93d90f3ae68cfa3157f",
                 "shasum": ""
             },
             "require": {
@@ -2272,7 +2272,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Run tests against varying dependencies versions",
-            "time": "2018-02-12T23:01:22+00:00"
+            "time": "2018-02-19T22:17:10+00:00"
         },
         {
             "name": "orchestra/testbench",
