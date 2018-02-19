@@ -1,0 +1,6 @@
+package_manager: 'composer require $package $version'
+test_runner: 'vendor/bin/phpunit'
+packages:
+	illuminate/support:
+		- 5.4.*
+		- ^5.5
