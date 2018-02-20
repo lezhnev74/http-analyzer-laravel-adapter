@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "73f8ec398c6c55210f9e50a773e9b93b",
+    "content-hash": "b8ab736acfaf8a536e527e1a79ed4f26",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -2242,20 +2242,21 @@
         },
         {
             "name": "ob-ivan/diversitest",
-            "version": "v0.2",
+            "version": "v0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ob-ivan/diversitest.git",
-                "reference": "ce7ae585714c9cd0c349d93d90f3ae68cfa3157f"
+                "reference": "5a9ad45248c252b05a6b21382df7d78733d7b901"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ob-ivan/diversitest/zipball/ce7ae585714c9cd0c349d93d90f3ae68cfa3157f",
-                "reference": "ce7ae585714c9cd0c349d93d90f3ae68cfa3157f",
+                "url": "https://api.github.com/repos/ob-ivan/diversitest/zipball/5a9ad45248c252b05a6b21382df7d78733d7b901",
+                "reference": "5a9ad45248c252b05a6b21382df7d78733d7b901",
                 "shasum": ""
             },
             "require": {
                 "symfony/console": "^4.0",
+                "symfony/process": "^4.0",
                 "symfony/yaml": "^4.0"
             },
             "require-dev": {
@@ -2272,7 +2273,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Run tests against varying dependencies versions",
-            "time": "2018-02-19T22:17:10+00:00"
+            "time": "2018-02-19T23:31:17+00:00"
         },
         {
             "name": "orchestra/testbench",

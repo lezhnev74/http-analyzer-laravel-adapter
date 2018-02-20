@@ -18,7 +18,7 @@
         }
     ],
     "config": {
-        "sort_packages": true
+        "sort-packages": true
     },
     "require": {
         "php": ">=5.6",
@@ -27,9 +27,9 @@
         "ramsey/uuid": "~3.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~5.0|~6.0|~7.0",
+        "ob-ivan/diversitest": "^0.3",
         "orchestra/testbench": "^3.2|^3.3|^3.4|^3.5|^3.6",
-        "ob-ivan/diversitest": "^0.2"
+        "phpunit/phpunit": "~5.0|~6.0|~7.0"
     },
     "autoload": {
         "psr-4": {
