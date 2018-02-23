@@ -22,12 +22,12 @@
     },
     "require": {
         "php": ">=5.6",
-        "illuminate/support": "~5.2",
         "guzzlehttp/guzzle": "~5.0|~6.0",
+        "illuminate/support": "~5.2",
+        "ob-ivan/diversitest": "^0.4.1",
         "ramsey/uuid": "~3.0"
     },
     "require-dev": {
-        "ob-ivan/diversitest": "^0.3",
         "orchestra/testbench": "^3.2|^3.3|^3.4|^3.5|^3.6",
         "phpunit/phpunit": "~5.0|~6.0|~7.0"
     },
