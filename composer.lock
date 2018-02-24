@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f299ba419a30d76e66c8a3f4ec646756",
+    "content-hash": "b29de9f4c4aac1c14014864afd7d3868",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -2242,23 +2242,23 @@
         },
         {
             "name": "ob-ivan/diversitest",
-            "version": "v0.5",
+            "version": "v0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ob-ivan/diversitest.git",
-                "reference": "baf09afe79ebe3f51ca569883752b668b457301e"
+                "reference": "209e795f9b24587086bbfa1a836a2828a09e3f2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ob-ivan/diversitest/zipball/baf09afe79ebe3f51ca569883752b668b457301e",
-                "reference": "baf09afe79ebe3f51ca569883752b668b457301e",
+                "url": "https://api.github.com/repos/ob-ivan/diversitest/zipball/209e795f9b24587086bbfa1a836a2828a09e3f2e",
+                "reference": "209e795f9b24587086bbfa1a836a2828a09e3f2e",
                 "shasum": ""
             },
             "require": {
                 "symfony/console": "^3.0|^4.0",
                 "symfony/process": "^3.0|^4.0",
                 "symfony/yaml": "^3.0|^4.0",
-                "twig/twig": "^2.4"
+                "twig/twig": "^1.0|^2.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7.0"
@@ -2274,7 +2274,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Run tests against varying dependencies versions",
-            "time": "2018-02-23T23:44:52+00:00"
+            "time": "2018-02-24T20:17:33+00:00"
         },
         {
             "name": "orchestra/testbench",

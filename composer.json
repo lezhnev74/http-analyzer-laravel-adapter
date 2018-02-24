@@ -27,7 +27,7 @@
         "ramsey/uuid": "~3.0"
     },
     "require-dev": {
-        "ob-ivan/diversitest": "^0.5",
+        "ob-ivan/diversitest": "^0.5.1",
         "orchestra/testbench": "^3.2|^3.3|^3.4|^3.5|^3.6",
         "phpunit/phpunit": "~5.0|~6.0|~7.0"
     },
