@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "38f9111aa212aede13b1b3377d5789be",
+    "content-hash": "a95fb8fcb90f283c1044bf026e3271c1",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -811,22 +811,23 @@
         },
         {
             "name": "ob-ivan/diversitest",
-            "version": "v0.4.1",
+            "version": "v0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ob-ivan/diversitest.git",
-                "reference": "b39417da9bd6b802b86d64765b54acb8d42b842d"
+                "reference": "baf09afe79ebe3f51ca569883752b668b457301e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ob-ivan/diversitest/zipball/b39417da9bd6b802b86d64765b54acb8d42b842d",
-                "reference": "b39417da9bd6b802b86d64765b54acb8d42b842d",
+                "url": "https://api.github.com/repos/ob-ivan/diversitest/zipball/baf09afe79ebe3f51ca569883752b668b457301e",
+                "reference": "baf09afe79ebe3f51ca569883752b668b457301e",
                 "shasum": ""
             },
             "require": {
                 "symfony/console": "^3.0|^4.0",
                 "symfony/process": "^3.0|^4.0",
-                "symfony/yaml": "^3.0|^4.0"
+                "symfony/yaml": "^3.0|^4.0",
+                "twig/twig": "^2.4"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7.0"
@@ -842,7 +843,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Run tests against varying dependencies versions",
-            "time": "2018-02-23T21:27:44+00:00"
+            "time": "2018-02-23T23:44:52+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -2131,6 +2132,72 @@
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
             "time": "2017-11-27T11:13:29+00:00"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v2.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "eddb97148ad779f27e670e1e3f19fb323aedafeb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/eddb97148ad779f27e670e1e3f19fb323aedafeb",
+                "reference": "eddb97148ad779f27e670e1e3f19fb323aedafeb",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "require-dev": {
+                "psr/container": "^1.0",
+                "symfony/debug": "~2.7",
+                "symfony/phpunit-bridge": "~3.3@dev"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                },
+                "psr-4": {
+                    "Twig\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "http://twig.sensiolabs.org/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2017-09-27T18:10:31+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

@@ -24,7 +24,7 @@
         "php": ">=5.6",
         "guzzlehttp/guzzle": "~5.0|~6.0",
         "illuminate/support": "~5.2",
-        "ob-ivan/diversitest": "^0.4.1",
+        "ob-ivan/diversitest": "^0.5",
         "ramsey/uuid": "~3.0"
     },
     "require-dev": {
