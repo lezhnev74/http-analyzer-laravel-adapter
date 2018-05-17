@@ -1,0 +1,7 @@
+package_manager: 'composer'
+test_runner: 'vendor/bin/phpunit'
+packages:
+    illuminate/support:
+        - 5.4.*
+        - 5.5.*
+        - 5.6.*
